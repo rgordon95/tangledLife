@@ -1,0 +1,46 @@
+/*SITEWIDE STYLES */
+$lightBlue: rgb(47, 173, 245);
+$darkBlue: rgb(25, 139, 143);
+$mediumBlue: rgb(40, 193, 198);
+$offWhite: rgb(250, 249, 255);
+//nav
+.mainNav {
+  font-family: 'Fredericka the Great', cursive, 'Courgette', cursive, 'Tangerine', cursive;
+}
+
+ aside {
+   background-color: $mediumBlue;
+   width: 20%;
+   padding-left: 0px;
+   margin-left: 0px;
+ }
+
+a:hover {
+  color: $offWhite;
+}
+
+a:focus {
+  color: $offWhite;
+}
+
+  //end nav
+
+  content {
+    width: 80%;
+    background-color: $lightBlue;
+  }
+
+
+//footer
+ footer {
+   background-color: $darkBlue;
+   margin: auto;
+ } //end footer
+/*End SITEWIDE STYLES*/
+
+/*Gallery Styles*/
+  #carousel-container {
+    align-content: center;
+    padding: 10px;
+  }
+/*End Gallery Styles*/

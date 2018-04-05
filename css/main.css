@@ -1,0 +1,32 @@
+/*SITEWIDE STYLES */
+.mainNav {
+  font-family: 'Fredericka the Great', cursive, 'Courgette', cursive, 'Tangerine', cursive; }
+
+aside {
+  background-color: #28c1c6;
+  width: 20%;
+  padding-left: 0px;
+  margin-left: 0px; }
+
+a:hover {
+  color: #faf9ff; }
+
+a:focus {
+  color: #faf9ff; }
+
+content {
+  width: 80%;
+  background-color: #2fadf5; }
+
+footer {
+  background-color: #198b8f;
+  margin: auto; }
+
+/*End SITEWIDE STYLES*/
+/*Gallery Styles*/
+#carousel-container {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 10px; }
+
+/*End Gallery Styles*/
