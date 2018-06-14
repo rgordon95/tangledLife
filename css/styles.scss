@@ -3,6 +3,19 @@ $lightBlue: rgb(47, 173, 245);
 $darkBlue: rgb(25, 139, 143);
 $mediumBlue: rgb(40, 193, 198);
 $offWhite: rgb(250, 249, 255);
+
+
+
+
+//header
+
+header {
+  background-color: $darkBlue;
+  color: $offWhite;
+}
+
+
+
 //nav
 .mainNav {
   font-family: 'Fredericka the Great', cursive, 'Courgette', cursive, 'Tangerine', cursive;

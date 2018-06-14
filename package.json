@@ -49,7 +49,9 @@
     "uglifyjs": "^2.4.11",
     "usemin-cli": "^0.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "popper.js": "^1.14.3"
+  },
   "keywords": [
     "zentangle",
     "art"

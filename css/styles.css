@@ -1,4 +1,8 @@
 /*SITEWIDE STYLES */
+header {
+  background-color: #198b8f;
+  color: #faf9ff; }
+
 .mainNav {
   font-family: 'Fredericka the Great', cursive, 'Courgette', cursive, 'Tangerine', cursive; }
 
