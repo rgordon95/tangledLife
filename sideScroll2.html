@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+  </head>
+  <nav class='navbar fixed-top navbar-light'>
+
+    <div id="content">
+      <button type="button" id="sidebarCollapse" class=" sidebarbar-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div>
+
+  </nav>
+
+  <body class='wrapper '>
+
+
+    <sidebar id="sidebar">
+      <!-- Sidebar Header -->
+      <div class="sidebar-header">
+        <h3>Collapsible Sidebar
+      </div>
+
+      <!-- Sidebar Links -->
+      <ul class="list-unstyled components">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+          <!-- Link with dropdown items -->
+          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Class Info</a>
+          <ul class="collapse list-unstyled" id="homeSubmenu">
+            <li class=''><a href="./">Class Schedule</a></li>
+            <li class=''><a href="./">More Info</a></li>
+
+          </ul>
+        <li class=''><a href="./contact.html">Contact</a></li>
+        <li class=''><a href="./links.html">Links</a></li>
+      </ul>
+    </sidebar>
+
+
+
+
+    <main class='container-fluid'>
+
+      <content class=' '>
+        <h2 class='col col-12'>Hello!</h2>
+        <p class='col col-12'>Welcome to my site. My name is Lisa. I am a CZT from Schenectady, NY. </p>
+      </content>
+
+      <content class=' '>
+        <h2 class='col col-12'>Hello!</h2>
+        <p class='col col-12'>Welcome to my site. My name is Lisa. I am a CZT from Schenectady, NY. </p>
+      </content>
+
+      <content class=' '>
+        <h2 class='col col-12'>Hello!</h2>
+        <p class='col col-12'>Welcome to my site. My name is Lisa. I am a CZT from Schenectady, NY. </p>
+      </content>
+
+      <content class=' '>
+        <h2 class='col col-12'>Hello!</h2>
+        <p class='col col-12'>Welcome to my site. My name is Lisa. I am a CZT from Schenectady, NY. </p>
+      </content>
+
+      <content class=' '>
+        <h2 class='col col-12'>Hello!</h2>
+        <p class='col col-12'>Welcome to my site. My name is Lisa. I am a CZT from Schenectady, NY. </p>
+      </content>
+
+      <content class=' '>
+        <h2 class='col col-12'>Hello!</h2>
+        <p class='col col-12'>Welcome to my site. My name is Lisa. I am a CZT from Schenectady, NY. </p>
+      </content>
+
+      <content class=' '>
+        <h2 class='col col-12'>Hello!</h2>
+        <p class='col col-12'>Welcome to my site. My name is Lisa. I am a CZT from Schenectady, NY. </p>
+      </content>
+
+      <content class=' '>
+        <h2 class='col col-12'>Hello!</h2>
+        <p class='col col-12'>Welcome to my site. My name is Lisa. I am a CZT from Schenectady, NY. </p>
+      </content>
+
+
+      <footer class="footer mt-5">
+        <div class=" ">
+          <div class="row row-12">
+            <div class="col-5 offset-1 col-sm-2">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                <li class='nav-link mx-auto'><a href="./index.html">Home</a></li>
+                <li class='nav-link mx-auto'><a href="./gallery.html">Gallery</a></li>
+                <li class='nav-link mx-auto'><a href="./">Class Schedule</a></li>
+                <li class='nav-link mx-auto'><a href="./">Class Info</a></li>
+                <li class='nav-link mx-auto'><a href="./contact.html">Contact</a></li>
+                <li class='nav-link mx-auto'><a href="./links.html">Links</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm align-self-center">
+              <div style="text-align:center">
+                <h5>Email Me</h5>
+                <a class="btn btn-social-icon" href="mailto:monalisa13rel@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <p>Created in 2019 by <a href="">Gordon Enterprises</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- close footer container -->
+      </footer>
+    </main>
+
+
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function() {
+        $('#sidebarCollapse').on('click', function() {
+          $('#sidebar').toggleClass('active');
+          $(this).toggleClass('active');
+        });
+      });
+    </script>
+  </body>
+
+</html>
